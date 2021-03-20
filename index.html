@@ -418,7 +418,7 @@
         function minimaxValue(board, originalTurn, searchPly,alpha,beta)
         {
 
-          if ((searchPly === 3) || board.gameOver()) // Change to desired ply lookahead
+          if ((searchPly === 5) || board.gameOver()) // Change to desired ply lookahead
           {
             return board.heuristic(originalTurn); // Termination criteria
           }
